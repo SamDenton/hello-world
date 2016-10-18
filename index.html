@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Dentons Gallery</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.stop-scrolling {
+			height: 100%;
+			overflow: hidden;
+		}
+		.jumbo-arrow	{
+			font-size:5vw;
+			background-color: black;
+		<!--	padding-top: 0; -->
+		}
+		.jumbotron-top	{
+			font-size:5vw;
+			color:white;
+			background-image: url("images/jumbotron-temp.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+			height: 100vh;
+			padding-left:0px;
+			padding-right:10px;
+			possition: relative;
+		<!--	padding-top: 0; -->
+		}
+		.jumbo2 h1	{
+			color:black;
+		}
+		.jumbo2	{
+			color:black;
+			background-image: url("images/jumbotron-temp.jpg");
+		}
+		.jumbotron-top p	{
+			font-size: 2.5vh;
+		}
+		.jumbotron-top down-arrow glyphicon	{
+			margin:0 auto;
+		}
+		.jumbotron-top down-arrow  glyphicon glyphicon-arrow-down	{
+			margin:0 auto;
+		}
+		.jumbotron-top down-arrow	{
+			margin:0 auto;
+			background-color: black;
+		}
+		body	{
+			padding-top: 10px;
+		}
+		.navbar-brand	{
+			margin-top: -10px;
+		}
+		.navbar	{
+		<!--	background: none !important; -->
+		}
+		.jumbotron-top h1 small	{
+		 color: #333;
+		}
+		.all-tab	{
+		  height:83vh;
+		  possition:relative;
+		}
+		.divider	{
+			border-color: white;
+		}
+		.text-center3	{
+			position: absolute;
+			width: 98.8vw;
+			top:100;
+			height:10vh;
+			bottom:0;
+			background-color:black;
+			border: 2px white;
+			opacity: 0.4;
+			filter: alpha(opacity=40); 
+			margin-left: 0px;
+		}
+		.text-center2	{
+			position: relative;
+			width: 98.8vw;
+			top:90;
+			height:10vh;
+			bottom:10;
+			background-color:white;
+			border: 2px white;
+			opacity: 0.8;
+			filter: alpha(opacity=80); 
+			margin-left: 0px;
+		}
+	</style>
+	  </head>
+	  <section id="top">
+	  <body link="red" class="stop-scrolling">
+			<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">
+				<img alt="logo" src="images\placeholder.jpeg">
+			  </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+				<li><a href="inspiration.html">Inspiration<span class="sr-only">(current)</span></a></li>
+				<li><a href="about-me.html">About Me</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="anime.html">Anime</a></li>
+					<li><a href="photo-realism.html">Photo realism</a></li>
+					<li><a href="pencil.html">Pencil</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="timelapses.html">Time-Lapses</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="feedback.html">Feedback</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="collaborators.html">Collaborators</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" padding-right="10px">Other pages <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="contact.html">Contact me</a></li>
+					<li><a href="sources.html">Sources</a></li>
+					<li><a href="tools.html">Tools I use</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="downloads.html">Downloads</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="jumbotron jumbotron-top">
+			<div class="page-header">
+				<h1>  &nbsp;&nbsp;Denton's Gallery <small class="second">A site to showcase my work</small></h1>
+			<!--- <p>A site to showcase my work</p> -->
+			</div>
+			<p> &nbsp;&nbsp;I have created this site to showcase some of my work</p>
+			<p>  &nbsp;&nbsp;This is to help me to get feedback from other people</p>
+			<p>    &nbsp;&nbsp;And show others what I can do</p>
+			</br>
+			<p>&nbsp;&nbsp;Click the arrows to scroll down, and "back to top" to scroll up</p>
+			
+			<a href="#tabs" class="scroll"><div class="down-arrow text-center3 text-center scroll"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true" position="center" background-color="black"></span></div></a>
+		</div>
+		<section id="tabs"> 
+		<div class="all-tab">
+		</br>
+		</br>
+		</br>
+		</br>
+		<h2>Here is some informaiton about me and what got me into art:</h2>
+		  <!-- Nav tabs -->
+		  <ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+				<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">About Me</a></li>
+				<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">My Inspiration</a></li>
+				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">My Ambition</a></li>
+		  </ul>
+
+		  <!-- Tab panes -->
+		<div class="tab-content">
+			  <div role="tabpanel" class="tab-pane fade in active" id="home">Welcome to my site, where I have presented some of the best things I have drawn.</br>I have only fairly recently become an artist, but I am already hooked by the freedom it creates</br> </div>
+			  <div role="tabpanel" class="tab-pane fade" id="profile">I am 17, and I have lived in Devon all my life only moving from Kingsteignton to Newton Abbot.  </br>I am in full-time education at Newton Abbot College, hoping to go to Bristol University to study Computer Science. </br>		  I built this whole site with HTML, using BootStrap as a starting point for my Style Sheets.</br>  </div>
+			  <div role="tabpanel" class="tab-pane fade" id="messages">I was inspired to start exploring art by a youtuber called Nevercake.  His simplistic drawing and animation styles appealed to me, and I decided to try to emulate him.</br>From here, I have tried a range of different art styles, with different levels of success.</br>The inspiration for individual pieces is normally other works I have found on the internet, but I have created a few originals as well.</br></div>
+			  <div role="tabpanel" class="tab-pane fade" id="settings">In the future, I plan to expand the different art styles i have tried, maybe trying some different types of landscapes, as I normally only do portraits.  </br>I am also starting to explore photo-realism styles.</br> </div>
+		</div>
+		<p><a href="#top" class="scroll">back to top</a>
+		</div>
+		</section>
+		<div class="jumbotron jumbo-arrow">
+			<div class="text-center2">
+				<a href="#last" class="scroll"><div class="down-arrow text-center2 text-center scroll" height="80px"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true" position="center" background-color="black"></span></div></a>
+			</div>
+		</div>
+		<section id="last">
+		<div class="jumbotron jumbo2 jumbotron-top">
+			<div class="page-header">
+			<h1>Enjoy <small class="second">Please feel free to continue to other sections of my site and leave feedback</small></h1>
+			</div>
+			<!--- <p>A site to showcase my work</p> -->
+			<p>I appreciate all feedback, as it helps me to improve my artwork and website</p>
+			<p>For direct feedback, my facebook and email are at the bottom of this page</p>
+			<p>As you explore my site, I recommend listening to chill music, like works by <a href="https://www.youtube.com/watch?v=EzjX0QE_l8U">"Kygo"</a></p>
+			<p>If you are interested in my work, contact me on facebook, or by email: </br><a href="https://www.facebook.com/sam.denton.5095">
+					<img alt="facebook" src="images\FB-FindUsonFacebook-online-72.png"> </a> <a href="mailto:samw.denton@gmail.com">samw.denton@gmail.com
+					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></p>
+			<p><a href="#top" class="scroll">back to top</a>
+		</div>
+		</section>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+				$(".scroll").click(function(event){
+				 event.preventDefault();
+				 //calculate destination place
+				 var dest=0;
+				 if($(this.hash).offset().top > $(document).height()-$(window).height()){
+					  dest=$(document).height()-$(window).height();
+				 }else{
+					  dest=$(this.hash).offset().top;
+				 }
+				 //go to destination
+				 $('html,body').animate({scrollTop:dest}, 1000,'swing');
+			 });
+			 $('body').addClass('stop-scrolling');
+		</script>
+	  </body>
+</html>
